@@ -1,5 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" href="css/article.css">
+  	<title>New Article</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      function submitArticle()
+      {
+        var t = document.getElementById("text");
+        alert(t.value);
+        $.ajax({
+          type: "POST",
+          url: "scripts/article.py",
+          data: { text: t.value}
+        }).done(function( o ) {
+           // do something
+           alert("done");
+        });
+      }
+    </script>
+  </head>
+
   <body>
-    <p style="color: red;">this is a test</p>
+    <input id="text" type="text"></input>
+    <button onclick="submitArticle()">Submit</button>
   </body>
+
 </html>
