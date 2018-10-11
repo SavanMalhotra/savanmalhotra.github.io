@@ -15,7 +15,7 @@ var toolbarOptions = [
   [{ 'color': [] }, { 'background': [] }],          // dropdown with defaults from theme
   [{ 'font': [] }],
   [{ 'align': [] }],
-  ['link', 'image'],
+  ['link', 'image', 'video', 'gif'],
   
   ['clean']                                         // remove formatting button
 ];
