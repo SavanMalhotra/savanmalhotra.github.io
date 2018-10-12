@@ -29,6 +29,7 @@ var toolbarOptions = [
     readOnly: false,
     theme: 'snow'
   });
+quill.format('background', 'red');
 
 document.getElementById("submitBtn").addEventListener("click", function(){
 
