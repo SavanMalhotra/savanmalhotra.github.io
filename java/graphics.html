@@ -8,18 +8,25 @@
         import javax.swing.JFrame;<br>
 <br>
         public class Drawing extends Canvas {<br>
-            public static void main(String[] args) {<br>
-                JFrame frame = new JFrame("My Drawing");<br>
-                Canvas canvas = new Drawing();<br>
-                canvas.setSize(400, 400);<br>
-                frame.add(canvas);<br>
-                frame.pack();<br>
-                frame.setVisible(true);<br>
-            }<br>
-
-            public void paint(Graphics g) {<br>
-                g.fillOval(100, 100, 200, 200);<br>
-            }<br>
+            public void paint(Graphics g) { <br> 
+        g.drawString("Hello",40,40);  <br>
+        setBackground(Color.WHITE); <br> 
+        g.fillRect(130, 30,100, 80); <br> 
+        g.drawOval(30,130,50, 60); <br> 
+        setForeground(Color.RED); <br> 
+        g.fillOval(130,130,50, 60);  <br>
+        g.drawArc(30, 200, 40,50,90,60); <br> 
+        g.fillArc(30, 130, 40,50,180,40); <br> 
+          <br>
+    }  <br>
+        public static void main(String[] args) { <br> 
+        DisplayGraphics m=new DisplayGraphics(); <br> 
+        JFrame f=new JFrame();  <br>
+        f.add(m);  <br>
+        f.setSize(400,400);  <br>
+        //f.setLayout(null); <br> 
+        f.setVisible(true); <br> 
+    }  <br>
         }<br>
     
     </code>
