@@ -2,33 +2,35 @@
 <!DOCTYPE html>
 <html>
 <body>
+    <pre>
     <code>
-        import java.awt.*;  <br>
-import javax.swing.*;  <br>
-public class PanelExample {  <br>
-     PanelExample()  <br>
-        {  <br>
-        JFrame f= new JFrame("Panel Example");    <br>
-        JPanel panel=new JPanel();  <br>
-        panel.setBounds(40,80,200,200);   <br> 
-        panel.setBackground(Color.gray);  <br>
-        JButton b1=new JButton("Button 1");  <br>   
-        b1.setBounds(50,100,80,30);    <br>
-        b1.setBackground(Color.yellow);   <br>
-        JButton b2=new JButton("Button 2");  <br> 
-        b2.setBounds(100,100,80,30);  <br>  
-        b2.setBackground(Color.green);  <br> 
-        panel.add(b1); panel.add(b2);  <br>
-        f.add(panel);  <br>
-                f.setSize(400,400);<br>    
-                f.setLayout(null);  <br>  
-                f.setVisible(true);  <br>  
-        }  <br>
-        public static void main(String args[])  <br>
-        {  <br>
-        new PanelExample();  <br>
-        }  <br>
-    }  <br>
+        import java.awt.*; 
+        import javax.swing.*;  
+        public class PanelExample {  
+            PanelExample()  
+            {  
+                JFrame f= new JFrame("Panel Example"); 
+                JPanel panel=new JPanel();  
+                panel.setBounds(40,80,200,200);  
+                panel.setBackground(Color.gray); 
+                JButton b1=new JButton("Button 1");   
+                b1.setBounds(50,100,80,30);    
+                b1.setBackground(Color.yellow);   
+                JButton b2=new JButton("Button 2");  
+                b2.setBounds(100,100,80,30);  
+                b2.setBackground(Color.green);  
+                panel.add(b1); panel.add(b2);  
+                f.add(panel);  
+                f.setSize(400,400);  
+                f.setLayout(null);   
+                f.setVisible(true);   
+            }  
+            public static void main(String args[])  
+            {  
+                new PanelExample();  
+            }  
+        } 
     </code>
+    </pre>
 </body>
 </html>
