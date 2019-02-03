@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  background-image: url("../images/1.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 35px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
