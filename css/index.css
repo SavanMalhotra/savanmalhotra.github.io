@@ -23,6 +23,9 @@ body, html {
   font-family: 'Abel', sans-serif;
   font-size: 35px;
   text-decoration: none;
+}
+
+h1 {
   margin: 10px 0px;
 }
 
