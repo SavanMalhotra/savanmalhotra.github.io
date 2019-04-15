@@ -160,7 +160,7 @@ function reset() {
 }
 
 function showFireworks() {
-  $.post("https://docs.google.com/forms/d/e/1FAIpQLSdcQPVw5ipRmVJe8cNc5ygpxCa0FFj0DwnNAcKfjkTK_l2ldQ/formResponse",
+  $.post("https://docs.google.com/forms/u/1/d/e/1FAIpQLSdcQPVw5ipRmVJe8cNc5ygpxCa0FFj0DwnNAcKfjkTK_l2ldQ/formResponse",
   {
     'entry.1603856796': rawNameValue,
     'entry.52373560': firstNameValue,
