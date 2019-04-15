@@ -25,6 +25,11 @@ body, html {
   text-decoration: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 hr {
   margin: auto;
   width: 40%;
