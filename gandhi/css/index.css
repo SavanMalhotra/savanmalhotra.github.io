@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab&display=swap');
+html, body {
+  margin: auto;
+  padding: 0;
+background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+video {
+  margin: 20vh 20vw;
+  width: 60vw;
+  height: 60vh;
+  background-color: #000;
+  margin-top: 10vh
+}
+
+#map {
+ width: 80vw;
+ height: 70vh;
+ margin: 10vh 10vw;
+ background-color: grey;
+}
+
+.h1 {
+  text-align: center;
+  width: 100vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.p {
+  text-align: center;
+  width: 100vw;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  width: 100vw;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.h {
+  text-align: center;
+  width: 100vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: #fff;
+  margin-top: 5vh;
+  height: 5vh;
+}
