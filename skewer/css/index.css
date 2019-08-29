@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 body, html {
-  height: 100vh;
+  max-height: 100vh;
   margin: 0;
   background-color: #000;
 }
@@ -9,7 +9,7 @@ body, html {
   animation-delay: 0.5s;
   background-image: url('../assets/background-image.jpg');
   background-color: #000;
-  height: 100vh;
+  max-height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
