@@ -61,6 +61,11 @@ input, select {
  color: #fff;
  text-transform: capitalize;
 }
+.counter {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
 
 @media screen and (max-width: 1140px){
   .content {
