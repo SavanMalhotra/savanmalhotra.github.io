@@ -9,6 +9,7 @@ body, html {
   animation-delay: 0.5s;
   background-image: url('../assets/background-image.jpg');
   background-color: #000;
+  height: 100vh;
   max-height: 100vh;
   background-position: center;
   background-size: cover;
