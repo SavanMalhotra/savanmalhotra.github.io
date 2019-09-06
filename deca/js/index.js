@@ -164,7 +164,7 @@ function reset() {
 
 function showFireworks() {
   var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/abcdefghijklmnopqrstuvwxyz1234567890/exec'
+    url = 'https://script.google.com/macros/s/AKfycbwRwctrjGc6s04eMexLolNeWi4L3vcHbq2XDmrAggvW7bhkhgJR/exec'
 
     $('#submit-form').on('click', function(e) {
       e.preventDefault();
