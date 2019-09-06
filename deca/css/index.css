@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins|Rubik');
+
+html, body {
+  overflow: hidden;
+  background-color:rgb(0,83,155);
+  color: #fff;
+}
+
+.box{
+  margin: auto;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  width: calc(100vw - 60px);
+}
+
+.img{
+  margin: auto;
+  width: 40vw;
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.input {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 55vw;
+  display: none;
+  margin: auto;
+  outline: none;
+  font-size: 4vw;
+  padding: 0.5vw 0.25vw;
+  border: none;
+  border-radius: 5vw;
+}
+
+.active {
+  display: block;
+}
+
+.button {
+  text-align: center;
+  font-size: 4vw;
+  border: none;
+  border-radius: 200vw;
+  visibility: hidden;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10vh;
+  padding: 0.25vw 1vw;
+  font-family: 'Rubik', sans-serif;
+  transition: 0.5s;
+  outline: none;
+  color: #888;
+}
+
+.button:hover {
+  color: #000;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #888;
+  opacity: 1; /* Firefox */
+  text-align: center;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #888;
+  text-align: center;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #888;
+  text-align: center;
+}
