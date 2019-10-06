@@ -5,7 +5,6 @@ html {
 .vertical-align {
   display: flex;
   flex-flow: column;
-  align-items: left;
   justify-content: center;
 }
 .left {
@@ -20,7 +19,7 @@ html {
   height: inherit;
   margin-right: 50px;
 }
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .right {
     display: none;
   }
@@ -32,12 +31,12 @@ html {
     text-align: center;
   }
 }
-@media (max-width: 555px) {
+@media only screen and (max-width: 555px) {
   .name {
-    font-size: 60px;
+    font-size: 50px;
   }
   .job-title {
-    font-size: 25px;
+    font-size: 20px;
   }
   .icons {
     color: #fff;
@@ -45,5 +44,10 @@ html {
     font-size: 15px;
     text-align: center;
     transition: 0.2s;
+  }
+  html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0px;
   }
 }
