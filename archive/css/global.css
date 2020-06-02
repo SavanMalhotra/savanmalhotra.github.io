@@ -1,7 +1,6 @@
-/*Global*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 html {
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden;
   margin: 0px;
 }
 .vertical-align {
@@ -15,10 +14,9 @@ html {
   height: inherit;
   margin-left: 50px;
 }
-.center {
-  position: fixed;
-    width: 100vw;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.right {
+  float: right;
+  max-width: calc(50vw - 50px);
+  height: inherit;
+  margin-right: 50px;
 }
