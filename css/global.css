@@ -1,7 +1,6 @@
 /*Global*/
 html {
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden;
   margin: 0px;
 }
 .vertical-align {

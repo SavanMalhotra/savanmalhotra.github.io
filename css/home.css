@@ -2,12 +2,13 @@
 body {
   background-color: #2a2a2a;
   margin: 0px;
+  overflow: hidden;
 }
 .header {
   height: 100vh;
   background-color: #2a2a2a;
   background-image: url('/assets/triangle.png');
-background-position: center;
+  background-position: center;
   text-align: center;
 }
 .name {
