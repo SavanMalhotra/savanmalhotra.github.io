@@ -12,16 +12,18 @@ body {
   text-align: center;
 }
 .name {
-  font-family: 'jost-medium', sans-serif;
-  font-size: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 65px;
+  text-transform: uppercase;
   margin: 0px;
   color: #fff;
   padding-left: 15px; 
   padding-right: 15px;
 }
 .job-title {
-  font-family: 'josh-light-italic', sans-serif;
-  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 45px;
   color: #1c9dec;
   vertical-align: center;
   margin: 0px;
@@ -37,7 +39,6 @@ body {
 .social-media {
   display: inline-flex;
   text-align: center;
-  margin-top: 12px;
 }
 .icons {
   color: #fff;
@@ -65,9 +66,6 @@ body {
 }
 
 @media (max-width: 777px) {
-  .name {
-    font-size: 75px;
-  }
   .job-title {
     font-size: 35px;
   }
@@ -75,14 +73,13 @@ body {
 
 @media (max-width: 615px) {
   .name {
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 50px;
     margin-left: 10px;
     margin-right: 10px;
   }
   .job-title {
-    font-size: 35px;
-      margin-top: 12px;
-      line-height: 35px;
+    margin-top: 12px;
+    line-height: 35px;
   }
 }
