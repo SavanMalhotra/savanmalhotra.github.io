@@ -34,14 +34,14 @@ body {
   font-family: 'ibm-regular', sans-serif;
   font-size: 50px;
   margin: 0px;
-  color: #fff;
+  color: #FFFFFF;
   padding-left: 15px; 
   padding-right: 15px;
 }
 .job-title {
   font-family: 'ibm-regular', sans-serif;
   font-size: 30px;
-  color: #1c9dec;
+  color: #1C9DEC;
   vertical-align: center;
   margin: 0px;
   text-align: center;
@@ -64,14 +64,14 @@ body {
   margin-bottom: 0px;
   padding: 10px 12px;
   font-size: 20px;
-  color: #fff;
-  border: solid #ffffff 2px;
+  color: #FFFFFF;
+  border: solid #FFFFFF 2px;
   border-radius: 15px;
   text-align: center;
 }
 .icons:hover {
   transition: 0.3s;
-  color: #1c9dec;
+  color: #1C9DEC;
 }
 .icon {
   text-align: center;
@@ -81,7 +81,7 @@ body {
   padding: 20px 20vw;
 }
 .colored {
-  color: #1c9dec;
+  color: #1C9DEC;
 }
 .description {
   font-family: 'ibm-regular', sans-serif;
@@ -130,6 +130,27 @@ body {
   color: #000000;
   transition: 0.2s;
 }
+.notify {
+  color: #1c9dec;
+}
+.cynea {
+  color: #10db73;
+}
+.solum {
+  color: #f17877;
+}
+.valeo {
+  color: #4ec126;
+}
+.sm-consulting {  
+  color: #FFFFFF;
+}
+.robotics {
+  color: #da262f;
+}
+.newspaper {
+  color: #daad41;
+}
 .footer{
   width: 100vw;
   background-color: #000000;
@@ -161,5 +182,105 @@ body {
   }
   .project-container {
     padding: 20px 10vw;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #FFFFFF;
+  }
+  .header {
+    background-color: #FFFFFF;
+  }
+  .name {
+    color: #000000;
+  }
+  .job-title {
+    color: #1C9DEC;
+  }
+  .icons {
+    color: #000000;
+    border: solid #000000 2px;
+  }
+  .icons:hover {
+    color: #1C9DEC;
+  }
+  .colored {
+    color: #1C9DEC;
+  }
+  .description {
+    color: #000000;
+  }
+  .project{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: solid #000000 2px;
+  }
+  .project-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: solid #000000 2px;
+  }
+  .project-button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .sm-consulting {
+    color: #000000;
+  }
+  .footer{
+    background-color: #FFFFFF;
+  }
+  .footer-text {
+    color: #000000;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+  }
+  .header {
+    background-color: #000000;
+  }
+  .name {
+    color: #fff;
+  }
+  .job-title {
+    color: #1c9dec;
+  }
+  .icons {
+    color: #fff;
+    border: solid #ffffff 2px;
+  }
+  .icons:hover {
+    color: #1c9dec;
+  }
+  .colored {
+    color: #1c9dec;
+  }
+  .description {
+    color: #FFFFFF;
+  }
+  .project{
+    color: #FFFFFF;
+    background-color: #000000;
+    border: solid #FFFFFF 2px;
+  }
+  .project-button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: solid #FFFFFF 2px;
+  }
+  .project-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  .sm-consulting {  
+    color: #FFFFFF;
+  }
+  .footer{
+    background-color: #000000;
+  }
+  .footer-text {
+    color: #fff;
   }
 }
