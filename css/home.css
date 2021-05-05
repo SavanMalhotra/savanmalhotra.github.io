@@ -6,24 +6,20 @@ body {
 }
 .header {
   height: 100vh;
-  background-color: #2a2a2a;
-  background-image: url('/assets/triangle.png');
-  background-position: center;
+  background-color: #000000;
   text-align: center;
 }
 .name {
-  font-family: 'Roboto', sans-serif;
-  font-size: 65px;
-  text-transform: uppercase;
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 50px;
   margin: 0px;
   color: #fff;
   padding-left: 15px; 
   padding-right: 15px;
 }
 .job-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 45px;
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 30px;
   color: #1c9dec;
   vertical-align: center;
   margin: 0px;
@@ -41,13 +37,24 @@ body {
   text-align: center;
 }
 .icons {
-  color: #fff;
-  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px 12px;
   font-size: 20px;
-  transition: 0.2s;
+  color: #fff;
+  border: solid #ffffff 2px;
+  border-radius: 15px;
+  text-align: center;
 }
 .icons:hover {
+  transition: 0.3s;
   color: #1c9dec;
+}
+.icon {
+  text-align: center;
+  display: inline-block;
 }
 
 
@@ -55,14 +62,14 @@ body {
 .footer {
   color: #fff;
   margin: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ibm-regular', sans-serif;
   font-size: 15px; 
-  padding: 10px;
   text-align: center;
   position: absolute;
-    bottom: 10px;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50%, 0%);
+  width: 100vw;
 }
 
 @media (max-width: 777px) {

@@ -8,3 +8,15 @@
   font-family: jost-medium;
   src: url(/fonts/Jost/Jost-Medium.ttf);
 }
+@font-face {
+  font-family: ibm-bold;
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+}
+@font-face {
+  font-family: ibm-regular;
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+@font-face {
+  font-family: ibm-light;
+  src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf);
+}
