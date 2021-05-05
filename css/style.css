@@ -1,0 +1,165 @@
+html {
+  overflow-x: hidden;
+  margin: 0px;
+}
+.vertical-align {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.left {
+  float: left;
+  max-width: calc(50vw - 50px);
+  height: inherit;
+  margin-left: 50px;
+}
+.center {
+  position: absolute;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+  background-color: #000000;
+  margin: 0px;
+  overflow: hidden;
+}
+.header {
+  height: 100vh;
+  background-color: #000000;
+  text-align: center;
+}
+.name {
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  color: #fff;
+  padding-left: 15px; 
+  padding-right: 15px;
+}
+.job-title {
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 30px;
+  color: #1c9dec;
+  vertical-align: center;
+  margin: 0px;
+  text-align: center;
+}
+.job-image {
+  max-width: 30vw;
+  min-width: 350px;
+  vertical-align: middle;
+  height: inherit;
+  display: initial;
+}
+.social-media {
+  display: inline-flex;
+  text-align: center;
+}
+.icons {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px 12px;
+  font-size: 20px;
+  color: #fff;
+  border: solid #ffffff 2px;
+  border-radius: 15px;
+  text-align: center;
+}
+.icons:hover {
+  transition: 0.3s;
+  color: #1c9dec;
+}
+.icon {
+  text-align: center;
+  display: inline-block;
+}
+.project-container {
+  padding: 20px 20vw;
+}
+.colored {
+  color: #1c9dec;
+}
+.description {
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 20px 0px;
+  text-align: left;
+}
+.project{
+  padding: 15px 20px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 15px;
+  border: solid #FFFFFF 2px;
+  margin-bottom: 30px;
+}
+.project-title {
+  font-family: 'ibm-bold', sans-serif;
+  font-size: 25px;
+  color: #1c9dec;
+  margin: 0px;
+}
+.project-description {
+  font-family: 'ibm-light', sans-serif;
+  font-size: 17px;
+  margin: 15px 0px;
+}
+.project-button-container {
+  padding: 15px 0px;
+}
+.project-button {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'ibm-light', sans-serif;
+  padding: 10px 12px;
+  border: solid #FFFFFF 2px;
+  border-radius: 15px;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+.project-button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: 0.2s;
+}
+.footer{
+  width: 100vw;
+  background-color: #000000;
+}
+.footer-text {
+  color: #fff;
+  margin: auto;
+  font-family: 'ibm-regular', sans-serif;
+  font-size: 15px; 
+  text-align: center;
+  padding: 20px 0px;
+  width: 100vw;
+}
+@media (max-width: 777px) {
+  .job-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 615px) {
+  .name {
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .job-title {
+    margin-top: 12px;
+    line-height: 35px;
+  }
+  .project-container {
+    padding: 20px 10vw;
+  }
+}

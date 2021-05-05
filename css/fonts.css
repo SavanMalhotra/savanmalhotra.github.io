@@ -1,14 +1,6 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 @font-face {
-  font-family: josh-light-italic;
-  src: url(/fonts/Jost/Jost-LightItalic.ttf);
-}
-@font-face {
-  font-family: jost-medium;
-  src: url(/fonts/Jost/Jost-Medium.ttf);
-}
-@font-face {
   font-family: ibm-bold;
   src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
 }
