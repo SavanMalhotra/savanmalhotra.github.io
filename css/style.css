@@ -82,9 +82,11 @@ body {
 }
 .colored {
   color: #1C9DEC;
+  text-decoration: none;
 }
 .description {
-  font-family: 'ibm-regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 20px;
   color: #FFFFFF;
   margin: 0px;
@@ -101,13 +103,15 @@ body {
   margin-bottom: 30px;
 }
 .project-title {
-  font-family: 'ibm-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   font-size: 25px;
   color: #1c9dec;
   margin: 0px;
 }
 .project-description {
-  font-family: 'ibm-light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 17px;
   margin: 15px 0px;
 }
@@ -118,7 +122,8 @@ body {
   background-color: #000000;
   color: #FFFFFF;
   font-size: 15px;
-  font-family: 'ibm-light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   padding: 10px 12px;
   border: solid #FFFFFF 2px;
   border-radius: 15px;
