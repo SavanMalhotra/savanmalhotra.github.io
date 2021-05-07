@@ -97,9 +97,8 @@ body {
 .project{
   padding: 15px 20px;
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #ffffff1c;
   border-radius: 15px;
-  border: solid #FFFFFF 2px;
   margin-bottom: 30px;
 }
 .project-title {
@@ -125,7 +124,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   padding: 10px 12px;
-  border: solid #FFFFFF 2px;
   border-radius: 15px;
   margin: 10px 0px;
   text-decoration: none;
@@ -147,7 +145,10 @@ body {
 .valeo {
   color: #4ec126;
 }
-.sm-consulting {  
+.shelterto {
+  color: #7d9aff;
+}
+.productify {
   color: #FFFFFF;
 }
 .robotics {
@@ -155,6 +156,9 @@ body {
 }
 .newspaper {
   color: #daad41;
+}
+.sm-consulting {  
+  color: #FFFFFF;
 }
 .footer{
   width: 100vw;
@@ -217,17 +221,18 @@ body {
   }
   .project{
     color: #000000;
-    background-color: #FFFFFF;
-    border: solid #000000 2px;
+    background-color: #00000007;
   }
   .project-button {
     background-color: #FFFFFF;
     color: #000000;
-    border: solid #000000 2px;
   }
   .project-button:hover {
-    background-color: #000000;
+    background-color: #e2e2e2;
     color: #FFFFFF;
+  }
+  .productify {
+    color: #000000;
   }
   .sm-consulting {
     color: #000000;
@@ -267,17 +272,18 @@ body {
   }
   .project{
     color: #FFFFFF;
-    background-color: #000000;
-    border: solid #FFFFFF 2px;
+    background-color: #ffffff1c;
   }
   .project-button {
     background-color: #000000;
     color: #FFFFFF;
-    border: solid #FFFFFF 2px;
   }
   .project-button:hover {
     background-color: #FFFFFF;
     color: #000000;
+  }
+  .productify {
+    color: #FFFFFF;
   }
   .sm-consulting {  
     color: #FFFFFF;
