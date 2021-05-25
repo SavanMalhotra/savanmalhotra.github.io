@@ -170,7 +170,8 @@ body {
   font-family: 'ibm-regular', sans-serif;
   font-size: 15px; 
   text-align: center;
-  padding: 20px 0px;
+  padding: 0px;
+  padding-bottom: 40px;
   width: 100vw;
 }
 @media (max-width: 777px) {
